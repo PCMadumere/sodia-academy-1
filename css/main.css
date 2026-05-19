@@ -2541,7 +2541,11 @@ figcaption {
 
 .section.hero-home {
   height: 100vh;
-  padding-top: 49px;
+  padding-top: 6rem;
+}
+
+.section.hero-program {
+  padding-top: 6rem;
 }
 
 .section.dark-section {
@@ -5487,11 +5491,24 @@ figcaption {
   text-align: center;
 }
 
+/* @keyframes scrollBackground {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-30%, 0, 0); }
+}
+
+.pattern-holder {
+  display: flex;
+  width: max-content;
+  animation: scrollBackground 20s linear infinite;
+} */
+
+
 .pattern-holder {
   justify-content: flex-start;
   align-items: center;
   display: flex;
   overflow: hidden;
+  /* animation: scrollBackground 20s linear infinite; */
 }
 
 .pattern {
@@ -5640,6 +5657,12 @@ figcaption {
 
   .section.hero-home {
     height: auto;
+    padding-top: 5rem;
+  }
+
+  .section.hero-program {
+    height: auto;
+    padding-top: 6rem;
   }
 
   ._8-col-grid {
