@@ -3198,7 +3198,7 @@ figcaption {
 }
 
 .section-spacing {
-  padding-top: var(--_spacings---core--section-space);
+  /* padding-top: var(--_spacings---core--section-space); */
   padding-bottom: var(--_spacings---core--section-space);
 }
 
@@ -5381,7 +5381,7 @@ figcaption {
   grid-template-columns: .75fr .5fr;
   grid-auto-columns: 1fr;
   place-items: center;
-  height: 80vh;
+  height: auto;
   margin-top: 50px;
   padding-top: 30px;
   display: flex;
