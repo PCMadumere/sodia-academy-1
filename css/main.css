@@ -295,87 +295,6 @@ pre.w-code-block code {
   display: contents;
 }
 
-/* .w-webflow-badge, .w-webflow-badge > img {
-  box-sizing: unset;
-  width: unset;
-  height: unset;
-  max-height: unset;
-  max-width: unset;
-  min-height: unset;
-  min-width: unset;
-  margin: unset;
-  padding: unset;
-  float: unset;
-  clear: unset;
-  border: unset;
-  border-radius: unset;
-  background: unset;
-  background-image: unset;
-  background-position: unset;
-  background-size: unset;
-  background-repeat: unset;
-  background-origin: unset;
-  background-clip: unset;
-  background-attachment: unset;
-  background-color: unset;
-  box-shadow: unset;
-  transform: unset;
-  direction: unset;
-  font-family: unset;
-  font-weight: unset;
-  color: unset;
-  font-size: unset;
-  line-height: unset;
-  font-style: unset;
-  font-variant: unset;
-  text-align: unset;
-  letter-spacing: unset;
-  -webkit-text-decoration: unset;
-  text-decoration: unset;
-  text-indent: unset;
-  text-transform: unset;
-  list-style-type: unset;
-  text-shadow: unset;
-  vertical-align: unset;
-  cursor: unset;
-  white-space: unset;
-  word-break: unset;
-  word-spacing: unset;
-  word-wrap: unset;
-  transition: unset;
-  } */
-
-/* .w-webflow-badge {
-  white-space: nowrap;
-  cursor: pointer;
-  box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
-  visibility: visible !important;
-  opacity: 1 !important;
-  z-index: 2147483647 !important;
-  color: #aaadb0 !important;
-  overflow: unset !important;
-  background-color: #fff !important;
-  border-radius: 3px !important;
-  width: auto !important;
-  height: auto !important;
-  margin: 0 !important;
-  padding: 6px !important;
-  font-size: 12px !important;
-  line-height: 14px !important;
-  text-decoration: none !important;
-  display: inline-block !important;
-  position: fixed !important;
-  inset: auto 12px 12px auto !important;
-  transform: none !important;
-  } */
-
-/* .w-webflow-badge > img {
-  position: unset;
-  visibility: unset !important;
-  opacity: 1 !important;
-  vertical-align: middle !important;
-  display: inline-block !important;
-  }*/
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
@@ -2642,6 +2561,12 @@ figcaption {
 
 .brand-image {
   width: 100%;
+  height: 80px;
+}
+
+.sodia-anambra-logo {
+  width: 45%;
+  height: 45px;
 }
 
 .nav-menu {
@@ -2694,6 +2619,7 @@ figcaption {
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .footer-content {
@@ -3109,9 +3035,22 @@ figcaption {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
   width: 100%;
   max-width: 142px;
   padding: 12px;
+}
+
+.footer-brand{
+  width: 100%;
+  }
+
+.footer-inner-brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .footer-signup-holder {
@@ -3163,7 +3102,7 @@ figcaption {
   z-index: 6;
   background-color: var(--tokens--background-alt);
   color: var(--text--font-color);
-  padding-bottom: 70px;
+  padding-bottom: 35px;
   position: relative;
 }
 
@@ -4666,7 +4605,7 @@ figcaption {
 
 .grid-feature-holder {
   grid-column-gap: 250px;
-  grid-row-gap: 250px;
+  grid-row-gap: 90px;
   border: 1px solid var(--tokens--border);
   flex-flow: column;
   justify-content: flex-start;
@@ -4685,7 +4624,7 @@ figcaption {
 
 .number {
   color: var(--tokens--primary);
-  font-size: var(--_typrography---desktop--heading-01);
+  font-size: 3rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -6306,7 +6245,7 @@ figcaption {
 
   .grid-feature-holder {
     grid-column-gap: 120px;
-    grid-row-gap: 120px;
+    grid-row-gap: 80px;
     text-align: left;
     justify-content: center;
     align-items: flex-start;
@@ -6937,7 +6876,7 @@ figcaption {
 
   .grid-feature-holder {
     grid-column-gap: 200px;
-    grid-row-gap: 200px;
+    grid-row-gap: 90px;
     border-bottom: 1px solid #dbdbdb;
     justify-content: flex-start;
     align-items: flex-start;
